@@ -89,3 +89,38 @@ elif 11 <= b <= 1818 or 2929 <= b <= 3636:
         print ('красный')
     else:
         print ('черный')
+
+задание 8
+
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if a2 > b1 or a1 > b2:
+    print('Пустое множество')
+elif a1 == b1:
+    print(a1)
+elif a2 == b1:
+    print(a2)
+else:
+    if a1 > a2:
+        a2 = a1
+    if b1 < b2:
+        b2 = b1
+    print(a2, b2)
+
+Контрольная работа
+№1 
+print()
+№2
+print('Поэма "Мертвые души" одна из самых интересных')
+print("I'm a math teacher and a programmer!")
+print("3.1415")
+print()
+№3
+print("Python",,"is the best")
+print('Python','is the best','!!')
+№4
+print("The world's a little blurry","Or maybe it's my eyes",end='!!!',sep=':)')
+print("Honey, what's your hurry",end=="")
+print("Told you not to worry","But maybe that's a lie",sep=':)')
