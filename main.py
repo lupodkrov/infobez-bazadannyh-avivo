@@ -124,3 +124,33 @@ print('Python','is the best','!!')
 print("The world's a little blurry","Or maybe it's my eyes",end='!!!',sep=':)')
 print("Honey, what's your hurry",end=="")
 print("Told you not to worry","But maybe that's a lie",sep=':)')
+№5
+input()
+№6
+n=int(input())
+№7
+Имя переменной может начинаться с подчеркивания (_)
+Имя переменной не может начинаться с цифры
+Имя переменной не может совпадать с ключевым (зарезервированным) словом
+№8
+s = 13
+k = -5
+d = s + 2
+s = d
+k = 2 * s 
+print(s + k + d)
+Ответ: 60
+№9
+a = 17 // (23 % 7)
+b = 34 % a * 5 - 29 % 4 * 3
+print(a * b)
+Ответ:56
+№10
+print('*****************')
+print('*               *')
+print('*               *')
+print('*****************')
+№11
+
+№12
+№13
